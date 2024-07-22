@@ -1,0 +1,7 @@
+.vscode/
+models*/
+tblogs*/
+*.hdf5
+*.jpg
+*.png
+*.csv
