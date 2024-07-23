@@ -12,7 +12,7 @@ cd(@__DIR__)
 # nepochs    = parse(Int64, ARGS[2])
 # debugflag  = parse(Bool,  ARGS[3])
 
-cudadevice = 1
+cudadevice = 0
 nepochs    = 200
 debugflag  = false
 
