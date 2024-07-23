@@ -103,7 +103,7 @@ if debugflag
       minibatchsize = 1
       epochs  = 2
 else
-      minibatchsize = 1
+      minibatchsize = 4
       epochs  = nepochs
 end
 ##############################
