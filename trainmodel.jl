@@ -200,7 +200,7 @@ optimizerState = Flux.setup(modelOptimizer, model)
 ### training
 @info "start training ..."
 
-number_since_best = 20
+number_since_best = 10
 patience = 5
 metrics = [
       LibML.AccScore,
