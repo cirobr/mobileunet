@@ -12,7 +12,7 @@ cd(@__DIR__)
 # nepochs    = parse(Int64, ARGS[2])
 # debugflag  = parse(Bool,  ARGS[3])
 
-cudadevice = 0
+cudadevice = 1
 nepochs    = 200
 debugflag  = false
 
@@ -200,7 +200,7 @@ optimizerState = Flux.setup(modelOptimizer, model)
 ### training
 @info "start training ..."
 
-number_since_best = 10
+number_since_best = 20
 patience = 5
 metrics = [
       LibML.AccScore,
